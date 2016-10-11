@@ -9,7 +9,8 @@ The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6
 # Overwiew of My Approach
 First, I extracted the images category-wise. This was done using the data_processing.m and image_generation.m files. Please refer to them for a detailed explanation.<br/>data_processing.m generates the following files:<br/>
 \*.mat files: categorized training sets extracted from the original data_batch\_\* files of the CIFAR 10 dataset.<br/>
-\*\_test.mat files: categorized test sets generated from the test_batch.mat file of the CIFAR 10 dataset. <br/><br/>
+\*\_test.mat files: categorized test sets generated from the test_batch.mat file of the CIFAR 10 dataset. <br/>
+Use image_generation.m to generate images from these .mat files.
 
 Other files:<br/>
 GUI.m generates the GUI (GUI.fig) for demonstration.<br/>
