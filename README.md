@@ -17,3 +17,6 @@ GUI.m generates the GUI (GUI.fig) for demonstration.<br/>
 train_and_test.m is the code for training the categoryClassifier (SVM with Gaussian Kernel) using SURF+BoW features, and testing using the test dataset and test images from Google. It can be used to generate categoryClassifier.mat, which is required for the GUI.m file to work. I wasn't able to upload this file beause it exceeds the 25MB limit.<br/>
 
 The model achieved 93% accuracy on the training set (can be verified from confMatrix.mat) and around 41.5% accuracy on the test set (can be verified from confMatrix_test.mat). Although the test set accuracy isn't so high, it performs well on test images from Google.
+
+# Note
+Not very accurate on bird, deer and horse categories. I will try to improve the accuracy by extracting different features.
