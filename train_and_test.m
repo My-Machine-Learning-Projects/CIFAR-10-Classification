@@ -14,7 +14,7 @@ testSets = imageSet('E:\CIFAR-10\Categorized Test Set\','recursive');
 confMatrix_test = evaluate(categoryClassifier, testSets);
 
 %% Testing on Google images
-img = imread('Test Images from Google\truck.jpg');
+img = imread('dog_Google.jpg');
 [labelIdx, scores] = predict(categoryClassifier, img);
 label_names = {'Airplane','Automobile','Bird','Cat','Deer','Dog','Frog','Horse','Ship','Truck'};
 label_names{labelIdx}
